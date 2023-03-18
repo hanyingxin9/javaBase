@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 /**
- * @description: 测试方法
+ * @description: 测试方法 Cclass
  * @fileName: Cclass.java
  * @author: hanyingxin
- * @createAt: 2023/3/18 22:25
+ * @createAt: 2023/3/18 22:28
  * @updateBy: hanyingxin
  * @remark: Copyright
  */
