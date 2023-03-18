@@ -1,6 +1,14 @@
-package test01;
+package test01.javabase.grammar;
 
-public class KeyWord {
+/**
+ * @description: 关键字
+ * @fileName: KeyWord.java
+ * @author: hanyingxin
+ * @createAt: 2023/3/7 11:19
+ * @updateBy: hanyingxin
+ * @remark: Copyright
+ */
+public class KeyWord_2 {
     public static void main(String []args){
 
        /* keyword 关键字（关键字均小写）

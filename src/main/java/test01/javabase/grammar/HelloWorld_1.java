@@ -1,6 +1,14 @@
-package test01;
+package test01.javabase.grammar;
 
-public class HelloWorld{
+/**
+ * @description: HelloWorld！
+ * @fileName: HelloWorld.java
+ * @author: hanyingxin
+ * @createAt: 2023/3/7 11:19
+ * @updateBy: hanyingxin
+ * @remark: Copyright
+ */
+public class HelloWorld_1 {
     public static void main(String [] args){
 
         System.out.println("HelloWorld");
