@@ -1,6 +1,14 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * @description: 测试方法
+ * @fileName: Aclass.java
+ * @author: hanyingxin
+ * @createAt: 2023/3/18 22:25
+ * @updateBy: hanyingxin
+ * @remark: Copyright
+ */
 public class Aclass {
     public static void main(String []args) {
 

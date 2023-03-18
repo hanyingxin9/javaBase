@@ -1,5 +1,13 @@
 import java.util.Scanner;
 
+/**
+ * @description: 测试方法
+ * @fileName: Cclass.java
+ * @author: hanyingxin
+ * @createAt: 2023/3/18 22:25
+ * @updateBy: hanyingxin
+ * @remark: Copyright
+ */
 public class Cclass {
     public static void main(String [] args){
 
