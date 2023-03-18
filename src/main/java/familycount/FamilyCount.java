@@ -1,4 +1,4 @@
-package test01.familycount;
+package familycount;
 
 /**
  * @description: 家庭账目收支系统

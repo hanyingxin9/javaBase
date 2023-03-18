@@ -1,4 +1,4 @@
-package test01.javabase.grammar;
+package javabase.grammar;
 /**
  * @description: 运算符
  * @fileName: Operator.java

@@ -1,4 +1,4 @@
-package test01.javabase.array;
+package javabase.array;
 
 import java.util.Scanner;
 

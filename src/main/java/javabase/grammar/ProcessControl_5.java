@@ -1,4 +1,4 @@
-package test01.javabase.grammar;
+package javabase.grammar;
 
 import java.util.Scanner;
 
