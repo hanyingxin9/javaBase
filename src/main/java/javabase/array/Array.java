@@ -168,16 +168,86 @@ public class Array {
 
                                  for(int j = 0 ; j < str[i].length ;j++){
 
-                                     System.out,println(str[i][j]);
+                                     System.out.println(str[i][j]);
                                  }
                              }
 
 
+                    二维数组的使用 :
+
+                            规定 :  二维数组分为 外层数组的元素 和 内层数组的元素
+                                        例如 : 外层数组  str[0] , str[1] ,...
+                                              内层数组  str[0][0] , str[1][2] ,...
+
+                            数组元素默认初始化值 :
+
+                               针对初始化方式一 :  int [][] arr = new int[3][2];
+                                  外层元素初始化值 : 地址值
+                                  内层元素初始化值 : 与一维数组初始化情况相同，基本数据类型或者引用数据类型
+
+                               针对初始化方式二 :  int [][] arr = new int[4][];
+                                  外层元素初始化值 : null
+                                  内层元素初始化值 : NullPointerException
+
+                            举例 :
+
+                            int [][] arr = new int[4][3];
+                            System.out.println(arr[0]);// 该一维数组地址值 [I@15db221
+                            System.out.println(arr[0][0]);// 0
+                            System.out.println(arr);// 二维数组地址值 [[I@6du2322
+
+                            String [][] str = new String[3][2];
+                            System.out.println(str[1]);// 该一维数组地址值 [Ljava.lang.String;@78232d23
+                            System.out.println(str[1][2]);// null
+
+                            *** 在二维数组中,外层的一维数组存储的也是 引用数据类型变量 数组 ，
+                            所以无论是二维数组变量还是一维数组变量 str , str[1] , arr , arr[0]
+                            存储的要不是地址值要么是null
+
+                            ***二维数组的内层数组的元素值看数据类型 ，要么存储的是基本数据类型 ， 要么存储的是引用数据类型的值
 
 
+                            double [][] arr = new double[4][];
+                            System.out.println(arr[1]);// null
+                            System.out.println(arr[1][0]);// java.lang.NullPointerException 空指针异常
 
 
+                    二维数组的内存解析 :
 
+                        public static void main(String [] args) {
+
+                            ...
+                            int [][] arr = new int[4][];
+                            arr[1] = new int[]{1,2,3};
+                            arr[2] = new int[4];
+                            arr[2][1] = 30;
+                            ...
+
+                       }
+
+                       以上述代码为例，想象二维数组的内存解析，
+                       随着main函数执行完毕，栈中元素弹出栈，堆中未被引用的实体被垃圾回收
+
+
+                       ***引用类型数据类型存储要么是地址值 ， 要么是 null
+                       所以 String数组中存储的并不是直接的字符串，而是地址值
+                       只不过这个地址值又指向了方法区中常量池中的字符串
+
+
+                       *** 数组的常见算法 :
+
+                          1.数组元素的赋值 :
+                                 杨辉三角   YangHuiSanJiao
+                                 回形数     AnamorphosisNumber  ***
+
+                          2.求数值型数组中元素的最大值 ，最小值 ，平均数 ，总和  Array_MaxMinSumAvg
+
+
+                          3.数组的复制 ，反转 ，查找（线性查找 ，二分法查找）
+                                 复制      ArrayCopy
+
+
+                          4.数组元素的排序算法
 
 
 
