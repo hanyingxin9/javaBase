@@ -15,6 +15,12 @@ public class StudentTest {
         //定义Student对象数组
         Student [] student = new Student[20];
 
+        //对象数组没有给里面的元素对象赋值时 , 应该为 null , 赋值后应该显示地址值
+        //由于Student类重写了 toString()方法所以显示具体的对象内容
+//        student[6] = new Student();
+//        System.out.println(student[6]);
+        System.out.println("*****************************************************************************");
+
         //赋值
         for(int i = 0 ; i < student.length ; i++){
             student[i] = new Student();
