@@ -9,7 +9,7 @@ package javabase.oop;
  * @remark: Copyright
  */
 public class ObjectOrientedProgramming {
-    public static void main(String [] args){
+    public static void main(String [] args) {
 
         /*
           OOP : Object Oriented Programming 面向对象程序设计
